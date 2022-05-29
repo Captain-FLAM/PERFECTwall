@@ -1,9 +1,10 @@
 # PERFECTwall
+
+**La version Française se trouve ici : [README_FR.md](https://github.com/Captain-FLAM/PERFECTwall/blob/master/README_FR.md)**
+
 The first 100% open-source Firewall for Windows 7/8/10 !
 
 This project is open to any form of participation (Developers, Bloggers, Sponsors, etc.)
-
-La version Française se trouve ici : <README_FR.md>
 
 ### BIOGRAPHY
 
