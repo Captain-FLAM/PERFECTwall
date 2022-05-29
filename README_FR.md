@@ -85,7 +85,7 @@ Par la suite, certaines parties pourront être recodées en C ou C++ pour être 
 J’ai choisi d’utiliser la version de .NET 4.5.2 au minimum pour que les gens n’aient pas besoin d’installer d’autres dépendances que Visual C++ (14 Mo au minimum, voire pas du tout s’il y a déjà une version supérieure installée).
 
 **WinDivert** - (codé en C)  
-Ce pilote génial est développé par « Basil00 » :
+Ce pilote génial qui est développé par « Basil00 », et dont j'ai modifié la DLL pour rendre l'installation du pilote permanente dans "C:\Windows\System32".
 
 > Windows Packet Divert (WinDivert) is a user-mode packet interception library
 > for Windows 7, Windows 8 and Windows 10.
