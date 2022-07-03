@@ -1,33 +1,38 @@
-# ![PERFECT wall](https://github.com/Captain-FLAM/PERFECTwall/wiki/images/PerfectWall.png) PERFECT wall
+# <img src="https://github.com/Captain-FLAM/PERFECTwall/wiki/images/PerfectWall.png" alt="PERFECT wall" style="max-width: 100%;vertical-align: sub;"> PERFECT wall
 
-Le premier Firewall 100% open-source pour Windows 8/10/11 basé sur les noms de domaine !
+#### Le premier Firewall 100% open-source pour Windows 8/10/11 basé sur les noms de domaine !
+
+![](https://img.shields.io/github/license/Captain-FLAM/PERFECTwall?style=flat-square) 
+![](https://img.shields.io/github/stars/Captain-FLAM/PERFECTwall?style=flat-square)
 
 J'ai besoin d'aide pour avancer plus vite : Ce projet est ouvert à toute les bonnes volontés.
 
-Vous pouvez me contacter par [e-mail](https://github.com/Captain-FLAM)  
-Et j'ai aussi activé le module [Discussions de GitHub](https://github.com/Captain-FLAM/PERFECTwall/discussions)
+Vous pouvez me contacter par [e-mail](https://github.com/Captain-FLAM), ou par  le module [Discussions de GitHub](https://github.com/Captain-FLAM/PERFECTwall/discussions)
 
-### CARACTÉRISTIQUES
-#### de la version 0.5 (Je travaille encore dessus)
+# 🔥 CARACTÉRISTIQUES
+### Version 0.5 (Je travaille encore dessus)
 
-* Multilingue (Français & Anglais, pour l'instant)  
-Vous pourrez ajouter des langues très facilement grâce à de simples fichiers INI encodés en UTF-8.
-* Affiche les requêtes DNS avant qu'elle ne soit envoyées  
-Pour l'instant, il s'agit d'une simple liste (type journal)
-* Indique les connexions réseau en temps réel sur l'icone de la barre des tâches
+✔️ Multilingue - Français & Anglais, pour l'instant  
+_(Vous pourrez ajouter des langues très facilement grâce à de simples fichiers INI encodés en UTF-8.)_
 
-### INSTALLATION
+✔️ Affiche les requêtes DNS avant qu'elle ne soit envoyées  
+_(Pour l'instant, il s'agit d'une simple liste (type journal))_
+
+✔️ Indique les connexions réseau en temps réel sur l'icone de la barre des tâches  
+.
+
+# 🚀 INSTALLATION
 
 Suivez le guide dans le [WIKI](https://github.com/Captain-FLAM/PERFECTwall/wiki/Installation-(FR))
 
-### BIOGRAPHIE
+# 🧒 BIOGRAPHIE
 
 Programmeur depuis l'âge de 12 ans (1981).  
 Avant, je développais en ASM, C, C++, Basic, Visual Basic.  
 Depuis l’an 2000, je code en PHP, MySQL, JavaScript, jQuery, HTML, CSS.  
 Et aujourd'hui, en C# pour ce projet.
 
-### HISTORIQUE
+# ✨ HISTORIQUE
 
 Sous Windows 98 et XP, j’utilisais « Kerio Firewall » et sous Windows 7, « PC Tools Firewall ».  
 Ces deux-là me convenaient bien, car ils affichaient l’URL demandée par chaque logiciel.
@@ -43,7 +48,7 @@ Certains seront pleinement satisfaits par cette solution , que vous pouvez voir 
 
 Mais c’est très loin de l’idée que je me fais d’un Firewall léger, rapide et qui occupe peu de place en mémoire !!
 
-### CONSTAT
+# 💡 CONSTAT
 
 1. Depuis le premier Windows que j'ai utilisé (version 3.1) jusqu'à aujourd'hui, je n'ai jamais connu un Firewall **100% Open-Source** basé sur les noms de domaine !
 2. Je pense que c’est un non-sens de bloquer des IP, car un serveur peut héberger plusieurs sites web sous la même IP !
@@ -51,13 +56,13 @@ Mais c’est très loin de l’idée que je me fais d’un Firewall léger, rapi
 
 Solution : Bloquer plutôt des noms de domaines, ou des groupes d’IP de serveurs appartenant à des entreprises.
 
-### UN VIEUX RÊVE
+# 💤 UN VIEUX RÊVE
 
 Depuis 2014, je rêve d’un pare-feu idéal et j’ai collecté tout un tas d’informations et de codes sources, mais je n’ai rien trouvé de convaincant.  
 Ces derniers temps, j’ai consulté les archives de mes fichiers capturés et cela m’a donné envie de voir ce qu’il y avait de nouveau sur le web...  
 Lors de recherches hasardeuses, je suis tombé sur un pilote qui peut correspondre à mes critères de filtrage et de là, me voilà reparti sur ce projet de dingue !  
 
-### LE PARE-FEU IDÉAL ?
+# 💗 LE PARE-FEU IDÉAL ?
 
 Je rêve d’un Pare-feu qui me conseille intelligemment sur ce que je dois décider et qui ne me harcèle pas trop, tout en assurant ma tranquillité d’esprit ...
 
@@ -82,7 +87,7 @@ D’ailleurs grâce à **PERFECT wall** , vous allez vous en rendre compte.
 Multipliez ça par des milliards de PC ...  
 Pour réduire le réchauffement climatique, commençons par réduire les accès de nos PC !!
 
-### SOLUTIONS UTILISÉES
+# 🍔 SOLUTIONS
 
 **PERFECT wall**  
 **&copy; Captain FLAM - 2022**  
@@ -123,6 +128,7 @@ J'ai du adpater le code de la dernière version (1.1.0) pour qu'il fonctionne av
 **INI File Parser** - (codé en C#)  
 **&copy; Ricardo Amores Hernández - (Barcelona)**  
 Cette librairie par ne s'appuie pas sur les API de Win32, et par conséquent supporte l'UTF-8.  
+J'ai rajouté la fonction de sauvegarde qui manquait sur la dernière version.
 
 J’ai inclus juste le nécessaire dans ce projet, mais si vous souhaitez voir le reste (exemples, tests et autres) :  
 [github.com/basil00/Divert](https://github.com/basil00/Divert)  
@@ -130,13 +136,11 @@ J’ai inclus juste le nécessaire dans ce projet, mais si vous souhaitez voir l
 [github.com/hardcodet/wpf-notifyicon](https://github.com/hardcodet/wpf-notifyicon)  
 [github.com/rickyah/ini-parser](https://github.com/rickyah/ini-parser)
 
-### ROADMAP
+# 🦄 Fonctionnalités futures
 
 - Bloquer les noms de domaines par application
 - Vérifier ou ne pas vérifier les noms de domaines par application  
 (ex : Ne pas vérifier pour BitTorrent.exe, car les connexions se font par IP)
-- Rediriger les requêtes par nom de domaine et par protocole  
-(ex : www.XXX.com port 80 → 127.0.0.1 port 64080 : page HTML renvoyée « Connexion bloquée »)
 - Autoriser/Bloquer les requêtes par groupes d’entreprises (évite la télémétrie, le DNS poisoning, etc.)
 - Autoriser / Refuser simplement les services nécessaires par groupes, au jour le jour  
 (ex : Réseau Local (LAN), Windows Update, Visual Studio, etc.)
@@ -146,18 +150,20 @@ J’ai inclus juste le nécessaire dans ce projet, mais si vous souhaitez voir l
 
 Bonus : J’aime bien voir l’activité de mon réseau en un coup d’œil et à part Comodo aucun ne dispose d’un indicateur visuel, excepté bien sûr **PERFECT wall** !
 
-### COMPILATION
+# 🏗️ COMPILATION
 
 Suivez le guide dans le [WIKI](https://github.com/Captain-FLAM/PERFECTwall/wiki/Compilation-(FR))
 
-### REMERCIEMENTS
+## ➕ P.S
+
+Avant que quelqu’un ne me le demande : Je sais bien que certains pare-feux offrent des fonctionnalités supplémentaires (vérification des signatures numériques, anti-intrusion, etc.) mais ce n’est pas prévu pour l’instant dans ce projet.
+
+### &copy; Captain FLAM - 2022 - Licence MIT
+
+****
+
+#### Remerciements :
 
 **Icônes trouvées sur "Pixabay.com"**  
 Bouclier par <a href="https://pixabay.com/fr/users/openclipart-vectors-30363/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=154885">OpenClipart-Vectors</a>  
 Paramètres par <a href="https://pixabay.com/fr/users/openicons-28911/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=98391">OpenIcons</a>
-
-P.S :  
-Avant que quelqu’un ne me le demande : Je sais bien que certains pare-feux offrent des fonctionnalités supplémentaires (Vérification des signatures numériques, anti-intrusion, etc.) mais ce n’est pas prévu pour l’instant dans ce projet.
-
-**&copy; Captain FLAM - 2022**  
-@ Licence MIT
