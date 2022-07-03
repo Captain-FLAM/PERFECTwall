@@ -1,13 +1,15 @@
-# <img src="https://github.com/Captain-FLAM/PERFECTwall/wiki/images/PerfectWall.png" alt="PERFECT wall" style="max-width: 100%;vertical-align: sub;"> PERFECT wall
+# <img src="https://github.com/Captain-FLAM/PERFECTwall/wiki/images/PerfectWall.png" alt="PERFECT wall" style="max-width: 100%; vertical-align: sub;"> PERFECT wall
 
 #### Version Française -> [README_FR.md](https://github.com/Captain-FLAM/PERFECTwall/blob/master/README_FR.md)
 
 ****
 
-#### The first 100% open-source Firewall for Windows 8/10/11 based on domain names !
-
 ![](https://img.shields.io/github/license/Captain-FLAM/PERFECTwall?style=flat-square) 
 ![](https://img.shields.io/github/stars/Captain-FLAM/PERFECTwall?style=flat-square)
+
+#### The first 100% open-source Firewall for Windows 8/10/11 based on domain names !
+
+#### Motto : « Let's free the bandwidth ! »
 
 I need help to move forward faster : This project is open to all goodwill.
 
@@ -23,7 +25,6 @@ _(You will be able to add languages very easily thanks to simple INI files encod
 _(For now, this is a simple list (log type))_
 
 ✔️ Indicates in real-time network connections on the taskbar icon  
-.
 
 # 🚀 INSTALLATION
 
@@ -165,8 +166,6 @@ Before someone asks me : I know that some firewalls offer additional features (d
 ### &copy; Captain FLAM - 2022 - MIT license
 
 ****
-
-#### Special Thanks :
 
 **Icons found on "Pixabay.com"**  
 Shield by <a href="https://pixabay.com/fr/users/openclipart-vectors-30363/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=154885">OpenClipart-Vectors</a>  

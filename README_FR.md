@@ -1,9 +1,11 @@
-# <img src="https://github.com/Captain-FLAM/PERFECTwall/wiki/images/PerfectWall.png" alt="PERFECT wall" style="max-width: 100%;vertical-align: sub;"> PERFECT wall
-
-#### Le premier Firewall 100% open-source pour Windows 8/10/11 basé sur les noms de domaine !
+# <img src="https://github.com/Captain-FLAM/PERFECTwall/wiki/images/PerfectWall.png" alt="PERFECT wall" style="max-width: 100%; vertical-align: sub;"> PERFECT wall
 
 ![](https://img.shields.io/github/license/Captain-FLAM/PERFECTwall?style=flat-square) 
 ![](https://img.shields.io/github/stars/Captain-FLAM/PERFECTwall?style=flat-square)
+
+#### Le premier Firewall 100% open-source pour Windows 8/10/11 basé sur les noms de domaine !
+
+#### Devise : « Libérons la bande passante ! »
 
 J'ai besoin d'aide pour avancer plus vite : Ce projet est ouvert à toute les bonnes volontés.
 
@@ -19,7 +21,6 @@ _(Vous pourrez ajouter des langues très facilement grâce à de simples fichier
 _(Pour l'instant, il s'agit d'une simple liste (type journal))_
 
 ✔️ Indique les connexions réseau en temps réel sur l'icone de la barre des tâches  
-.
 
 # 🚀 INSTALLATION
 
@@ -161,8 +162,6 @@ Avant que quelqu’un ne me le demande : Je sais bien que certains pare-feux off
 ### &copy; Captain FLAM - 2022 - Licence MIT
 
 ****
-
-#### Remerciements :
 
 **Icônes trouvées sur "Pixabay.com"**  
 Bouclier par <a href="https://pixabay.com/fr/users/openclipart-vectors-30363/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=154885">OpenClipart-Vectors</a>  
