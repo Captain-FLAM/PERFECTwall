@@ -102,7 +102,7 @@ Par la suite, certaines parties pourront être recodées en C ou C++ pour être 
 J’ai choisi d’utiliser la version de .NET 4.5 au minimum pour que les gens n’aient pas besoin d’installer d’autres dépendances que Visual C++ (14 Mo au minimum, voire pas du tout s’il y a déjà une version supérieure installée).
 
 **WinDivert** - (codé en C)  
-**&copy; Basil00  
+**&copy; Basil00**  
 Ce pilote est génial !  
 J'ai juste modifié la DLL pour rendre l'installation du pilote permanente dans "C:\Windows\System32".
 J'ai également créé un processus d'installation (install.cmd & setup.exe) pour faciliter les choses.

@@ -104,7 +104,7 @@ Subsequently, some parts can be recoded in C or C++ to be more efficient.
 I chose to use .NET version 4.5 at minimum so that people don't need to install any dependencies other than Visual C++ (14MB minimum, even not at all if there is already a higher version installed).
 
 **WinDivert** - (coded in C)  
-**&copy; Basil00  
+**&copy; Basil00**  
 This driver is awesome !  
 I just modified the DLL to make the driver installation permanent in "C:\Windows\System32".
 I also created an install process (install.cmd & setup.exe) to make things easier.
