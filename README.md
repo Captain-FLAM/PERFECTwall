@@ -20,7 +20,7 @@ For now, this is a simple list (log type)
 
 ### INSTALLATION
 
-Follow the guide in the [WIKI](/wiki/Installation.md)
+Follow the guide in the [WIKI](https://github.com/Captain-FLAM/PERFECTwall/wiki/Installation)
 
 ### BIOGRAPHY
 
@@ -150,7 +150,7 @@ Bonus : I like to see my network activity at a glance and apart from Comodo none
 
 ### COMPILATION
 
-Follow the guide in the [WIKI](wiki/Compilation.md)
+Follow the guide in the [WIKI](https://github.com/Captain-FLAM/PERFECTwall/wiki/Compilation)
 
 ### THANKS
 

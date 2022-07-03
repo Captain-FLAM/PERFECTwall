@@ -18,7 +18,7 @@ Pour l'instant, il s'agit d'une simple liste (type journal)
 
 ### INSTALLATION
 
-Suivez le guide dans le [WIKI](wiki/Installation%20(FR).md)
+Suivez le guide dans le [WIKI](https://github.com/Captain-FLAM/PERFECTwall/wiki/Installation-(FR))
 
 ### BIOGRAPHIE
 
@@ -148,7 +148,7 @@ Bonus : J’aime bien voir l’activité de mon réseau en un coup d’œil et �
 
 ### COMPILATION
 
-Suivez le guide dans le [WIKI](wiki/Compilation%20(FR).md)
+Suivez le guide dans le [WIKI](https://github.com/Captain-FLAM/PERFECTwall/wiki/Compilation-(FR))
 
 ### REMERCIEMENTS
 
