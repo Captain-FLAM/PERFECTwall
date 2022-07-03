@@ -1,11 +1,8 @@
-# <img src="https://github.com/Captain-FLAM/PERFECTwall/wiki/images/PerfectWall.png" alt="PERFECT wall" style="max-width: 100%; vertical-align: sub;"> PERFECT wall
+# <img src="https://github.com/Captain-FLAM/PERFECTwall/wiki/images/PerfectWall.png" alt="PERFECT wall" style="max-width: 100%; vertical-align: sub;"> PERFECT wall ![](https://img.shields.io/github/license/Captain-FLAM/PERFECTwall?style=flat-square) ![](https://img.shields.io/github/stars/Captain-FLAM/PERFECTwall?style=flat-square)
 
 #### Version Française -> [README_FR.md](https://github.com/Captain-FLAM/PERFECTwall/blob/master/README_FR.md)
 
 ****
-
-![](https://img.shields.io/github/license/Captain-FLAM/PERFECTwall?style=flat-square) 
-![](https://img.shields.io/github/stars/Captain-FLAM/PERFECTwall?style=flat-square)
 
 #### The first 100% open-source Firewall for Windows 8/10/11 based on domain names !
 
