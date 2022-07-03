@@ -3,6 +3,7 @@
 
 /!_BUILD_!/**
 /#Bin/**
+/Wiki.sln
 
 ## Ignore Visual Studio temporary files
 

@@ -18,6 +18,10 @@ You will be able to add languages very easily thanks to simple INI files encoded
 For now, this is a simple list (log type)
 * Indicates in real-time network connections on the taskbar icon
 
+### INSTALLATION
+
+Follow the guide in the [WIKI](wiki/Installation.md)
+
 ### BIOGRAPHY
 
 Programmer since the age of 12 (1981).  
@@ -79,20 +83,6 @@ Moreover, thanks to **PERFECT wall**, you will realize it.
 
 Multiply that by billions of PCs...  
 To reduce global warming, let's start by reducing the access of our PCs !!
-
-### MINIMUM REQUIREMENTS
-
-1. Windows 8 / **Windows 10** / Windows 11
-2. Visual C++ Runtime 2015
-3. Framework .NET 4.5 (or +)
-
-[2] - If it is not installed, you can [download it here](https://www.microsoft.com/en-in/download/details.aspx?id=48145) (14 Mo) or the [newer version](https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) 2015-2022 (25 MB)
-[3] - There is nothing to do for Windows 8/8.1/10, as the Framework .NET version 4.5 (or upper) is automatically installed with Windows.
-
-### INSTALLATION
-
-- Ensure that the application has Administrator privileges, else the WinDivert will fail to load.  
-- Windows Server 2016 must have secure boot disabled.
 
 ### SOLUTIONS USED
 
@@ -160,23 +150,7 @@ Bonus : I like to see my network activity at a glance and apart from Comodo none
 
 ### COMPILATION
 
-To compile this program, you will need :
-
-[Visual Studio (Community)](https://visualstudio.microsoft.com/en/) which is free.  
-[.NET Framework 4.5.2 Developer Pack](https://www.microsoft.com/en-us/download/details.aspx?id=42637)  
-OR a [higher version](https://dotnet.microsoft.com/en-us/download/visual-studio-sdks) ( 4.6.2 to 4.8 )
-
-Dependencies for « IniParser » and « WinDivertSharp » :
-
-Package NuGet : **NETStandard.Library (2.0)**
-
-My philosophy for storing application settings :
-
-Regarding security, they must be stored in the registry.  
-For the configurations, it is better to put them in an .ini file (which also makes the application "Portable").  
-The languages are also saved in .ini files, which makes it possible to translate the application without touching the code.  
-(and thus allows everyone to participate in the internationalization of this magnificent project)  
-Finally for the firewall rules, I chose to store them in a SQLite 3.
+Follow the guide in the [WIKI](wiki/Compilation.md)
 
 ### THANKS
 

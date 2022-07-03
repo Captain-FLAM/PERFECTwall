@@ -16,6 +16,10 @@ Vous pourrez ajouter des langues très facilement grâce à de simples fichiers 
 Pour l'instant, il s'agit d'une simple liste (type journal)
 * Indique les connexions réseau en temps réel sur l'icone de la barre des tâches
 
+### INSTALLATION
+
+Suivez le guide dans le [WIKI](wiki/Installation%20(FR).md)
+
 ### BIOGRAPHIE
 
 Programmeur depuis l'âge de 12 ans (1981).  
@@ -77,20 +81,6 @@ D’ailleurs grâce à **PERFECT wall** , vous allez vous en rendre compte.
 
 Multipliez ça par des milliards de PC ...  
 Pour réduire le réchauffement climatique, commençons par réduire les accès de nos PC !!
-
-### CONFIGURATION MINIMUM
-
-1. Windows 8 / **Windows 10** / Windows 11
-2. Visual C++ Runtime 2015
-3. Framework .NET 4.5 (ou +)
-
-[2] - S'il n'est pas installé, vous pouvez [le télécharger ici](https://www.microsoft.com/fr-FR/download/details.aspx?id=48145) (14 Mo) ou la [version plus récente](https://docs.microsoft.com/fr-fr/cpp/windows/latest-supported-vc-redist?view=msvc-170) 2015-2022 (25 Mo)
-[3] - Il n’y a rien à faire pour Windows 8/8.1/10, car le Framework .NET version 4.5 (ou supérieure) est installé automatiquement avec Windows.
-
-### INSTALLATION
-
-- Assurez-vous que l'application dispose des privilèges d'administrateur, sinon le pilote WinDivert ne se chargera pas.  
-- Windows Server 2016 doit avoir le "démarrage sécurisé" désactivé.
 
 ### SOLUTIONS UTILISÉES
 
@@ -158,23 +148,7 @@ Bonus : J’aime bien voir l’activité de mon réseau en un coup d’œil et �
 
 ### COMPILATION
 
-Pour compiler ce programme, vous aurez besoin de :
-
-[Visual Studio (Community)](https://visualstudio.microsoft.com/fr/) qui est gratuit.  
-[.NET Framework 4.5.2 Developer Pack](https://www.microsoft.com/fr-fr/download/details.aspx?id=42637)  
-OU une [version supérieure](https://dotnet.microsoft.com/en-us/download/visual-studio-sdks) ( 4.6.2 à 4.8 )
-
-Dépdendances pour « IniParser » et « WinDivertSharp » :
-
-Package NuGet : **NETStandard.Library (2.0)**
-
-Ma philosophie pour stocker les paramètres d'une application :
-
-Concernant la sécurité, ils doivent être stockés dans la base de registre.  
-Pour les configurations, il est préférable de les mettre dans un fichier .ini (Ce qui rend aussi l'application "Portable").  
-Les langues sont également enregistrées dans des fichiers .ini, ce qui permet de traduire l'application sans toucher au code.  
-(et permet ainsi à tout le monde de participer à l'internationalisation de ce magnifique projet)  
-Enfin pour les règles du pare-feu, j'ai choisi de les stocker dans un fichier SQLite 3.
+Suivez le guide dans le [WIKI](wiki/Compilation%20(FR).md)
 
 ### REMERCIEMENTS
 
