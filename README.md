@@ -1,4 +1,4 @@
-# PERFECT wall
+# ![PERFECT wall](https://github.com/Captain-FLAM/PERFECTwall/wiki/images/PerfectWall.png) PERFECT wall
 
 ### Version Française -> [README_FR.md](https://github.com/Captain-FLAM/PERFECTwall/blob/master/README_FR.md)
 
