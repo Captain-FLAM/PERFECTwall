@@ -20,7 +20,7 @@ For now, this is a simple list (log type)
 
 ### INSTALLATION
 
-Follow the guide in the [WIKI](wiki/Installation.md)
+Follow the guide in the [WIKI](/wiki/Installation.md)
 
 ### BIOGRAPHY
 
