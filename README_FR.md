@@ -1,6 +1,6 @@
-# ![](https://github.com/Captain-FLAM/PERFECTwall/wiki/images/PerfectWall.png) PERFECT wall
+# ![](https://github.com/Captain-FLAM/PERFECTwall/wiki/images/PerfectWall.png) PERFECT wall [![](https://img.shields.io/github/stars/Captain-FLAM/PERFECTwall?color=ff0080&style=for-the-badge)](https://github.com/Captain-FLAM/PERFECTwall/stargazers)
 
-#### Le premier Firewall 100% open-source pour Windows 8/10/11 basé sur les noms de domaine ! [![](https://img.shields.io/github/stars/Captain-FLAM/PERFECTwall?color=ff0080&style=for-the-badge)](https://github.com/Captain-FLAM/PERFECTwall/stargazers)
+#### Le premier Firewall 100% open-source pour Windows 8/10/11 basé sur les noms de domaine !
 
 #### Devise : « Libérons la bande passante ! »
 

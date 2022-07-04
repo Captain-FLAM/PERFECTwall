@@ -1,10 +1,10 @@
-# ![](https://github.com/Captain-FLAM/PERFECTwall/wiki/images/PerfectWall.png) PERFECT wall
+# ![](https://github.com/Captain-FLAM/PERFECTwall/wiki/images/PerfectWall.png) PERFECT wall [![](https://img.shields.io/github/stars/Captain-FLAM/PERFECTwall?color=ff0080&style=for-the-badge)](https://github.com/Captain-FLAM/PERFECTwall/stargazers)
 
 #### Version Française -> [README_FR.md](https://github.com/Captain-FLAM/PERFECTwall/blob/master/README_FR.md)
 
 ****
 
-#### The first 100% open-source Firewall for Windows 8/10/11 based on domain names ! [![](https://img.shields.io/github/stars/Captain-FLAM/PERFECTwall?color=ff0080&style=for-the-badge)](https://github.com/Captain-FLAM/PERFECTwall/stargazers)
+#### The first 100% open-source Firewall for Windows 8/10/11 based on domain names !
 
 #### Motto : « Let's free the bandwidth ! »
 
