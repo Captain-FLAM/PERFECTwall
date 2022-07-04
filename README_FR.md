@@ -1,4 +1,4 @@
-# <img src="https://github.com/Captain-FLAM/PERFECTwall/wiki/images/PerfectWall.png" alt="PERFECT wall" style="max-width: 100%; vertical-align: bottom;"> PERFECT wall ![](https://img.shields.io/github/stars/Captain-FLAM/PERFECTwall?style=flat-square)
+# <img src="https://github.com/Captain-FLAM/PERFECTwall/wiki/images/PerfectWall.png" alt="PERFECT wall" style="max-width:100%;position:relative;bottom:-4px;"> PERFECT wall ![](https://img.shields.io/github/stars/Captain-FLAM/PERFECTwall?style=flat-square)
 
 #### Le premier Firewall 100% open-source pour Windows 8/10/11 basé sur les noms de domaine !
 
