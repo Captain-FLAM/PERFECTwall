@@ -22,6 +22,7 @@ _(You will be able to add languages very easily thanks to simple INI files encod
 _(For now, this is a simple list (log type))_
 
 ✔️ Indicates in real-time network connections on the taskbar icon  
+.
 
 # 🚀 INSTALLATION
 
@@ -68,20 +69,24 @@ During hazardous researchs, I came across a driver that may correspond to my fil
 
 I dream of a Firewall that advises me intelligently on what I should decide and that does not harass me too much, while ensuring my peace of mind...
 
-It would be an application firewall (different rules per application, which is already the case for most) but with filtering by domain names, or by IP groups, or by IP if necessary.  
-For instance :  
-Allow « Windows Update » to connect to Microsoft-owned IPs ONLY.  
-Deny « Firefox » connection to Mozilla ping service.  
-Deny « Windows » connection to Microsoft « Account » service. ( → login.live.com)
+It would be an application firewall (different rules per application, which is already the case for most) but with filtering by domain names, or by IP groups, or by IP if necessary.
 
-With simple global rules, for example :  
-Globally allow/deny services needed for « Windows Update » (BITS, WuauServ, Orchestrator, etc.)  
+Individual rules :
+
+- Allow « Windows Update » to connect to Microsoft-owned IPs ONLY.
+- Deny « Firefox » connection to Mozilla ping service.
+- Deny « Windows » connection to Microsoft « Account » service. ( → login.live.com)
+
+Simple group rules, by e.g :
+
+- Globally allow/deny services needed for « Windows Update » (BITS, WuauServ, Orchestrator, etc.)  
 No more hacks in the registry to prevent untimely updates !  
 Thus, my Windows would update ONLY when I decided !
 
-and of course :  
-Completely deny a program to connect to the internet !  
-(i.e.: no DNS queries either : time saving, less waiting threads, battery saving on laptops, more network bandwidth available, less electrical pollution, etc.)
+and of course :
+
+- Completely deny a program to connect to the internet !  
+(no DNS queries either : time saving, less waiting threads, battery saving on laptops, more network bandwidth available, less electrical pollution, etc.)
 
 Believe me, if you knew the number of useless connections per minute, per hour, per day that leave your PC, you would be amazed !  
 Moreover, thanks to **PERFECT wall**, you will realize it.
@@ -104,10 +109,8 @@ This driver is awesome !
 I just modified the DLL to make the driver installation permanent in "C:\Windows\System32".
 I also created an install process (install.cmd & setup.exe) to make things easier.
 
-> Windows Packet Divert (WinDivert) is a user-mode packet interception library
-> for Windows 7, Windows 8 and Windows 10.
+> WinDivert is a user-mode packet interception library for Windows 7 / 8 / 10, that can :
 >
-> In summary, WinDivert can:
 > - capture network packets
 > - filter/drop network packets
 > - sniff network packets
@@ -122,9 +125,9 @@ This interface was created for version 1.4 of Windivert and I deeply took over a
 **&copy; Philipp Sumi - (Switzerland)**  
 I had to adapt the code of the last version (1.1.0) so that it works with the .NET Framework 4.5.  
 
-> This is an implementation of a NotifyIcon (aka system tray icon or taskbar icon) for the WPF platform.
-> It does not just rely on the Windows Forms NotifyIcon component, but is a purely independent control
-> which leverages several features of the WPF framework in order to display rich tooltips, popups,
+> This is an implementation of a NotifyIcon (aka system tray icon or taskbar icon) for the WPF platform.  
+> It does not just rely on the Windows Forms NotifyIcon component, but is a purely independent control  
+> which leverages several features of the WPF framework in order to display rich tooltips, popups,  
 > context menus, and balloon messages.
 
 **INI File Parser** - (coded in C#)  
@@ -138,7 +141,7 @@ I included just the necessary in this project, but if you want to see the rest (
 [github.com/hardcodet/wpf-notifyicon](https://github.com/hardcodet/wpf-notifyicon)  
 [github.com/rickyah/ini-parser](https://github.com/rickyah/ini-parser)
 
-# 🦄 Upcoming Features
+# 🦄 IN THE NEAR FUTURE
 
 - Block domain names per application.
 - To verify or not to verify domain names by application.  

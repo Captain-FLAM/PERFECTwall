@@ -18,6 +18,7 @@ _(Vous pourrez ajouter des langues très facilement grâce à de simples fichier
 _(Pour l'instant, il s'agit d'une simple liste (type journal))_
 
 ✔️ Indique les connexions réseau en temps réel sur l'icone de la barre des tâches  
+.
 
 # 🚀 INSTALLATION
 
@@ -64,20 +65,24 @@ Lors de recherches hasardeuses, je suis tombé sur un pilote qui peut correspond
 
 Je rêve d’un Pare-feu qui me conseille intelligemment sur ce que je dois décider et qui ne me harcèle pas trop, tout en assurant ma tranquillité d’esprit ...
 
-Ce serait un pare-feu applicatif (règles différentes par application, ce qui est déjà le cas de la plupart) mais avec un filtrage par noms de domaine, ou par groupes d’IP, ou par IP le cas échéant.  
-Par exemple :  
-Autoriser la connexion de « Windows Update » aux IP appartenant UNIQUEMENT à Microsoft.  
-Refuser la connexion de « Firefox » au service de ping de Mozilla.  
-Refuser la connexion de « Windows » au service « Compte » de Microsoft. ( → login.live.com)
+Ce serait un pare-feu applicatif (règles différentes par application, ce qui est déjà le cas de la plupart) mais avec un filtrage par noms de domaine, ou par groupes d’IP, ou par IP le cas échéant.
 
-Avec des règles globales simples, par exemple :  
-Autoriser / Refuser globalement les services nécessaires pour « Windows Update » (BITS, WuauServ, Orchestrator, etc.)  
+Régles individuelles :
+
+- Autoriser la connexion de « Windows Update » aux IP appartenant UNIQUEMENT à Microsoft.
+- Refuser la connexion de « Firefox » au service de ping de Mozilla.
+- Refuser la connexion de « Windows » au service « Compte » de Microsoft. ( → login.live.com)
+
+Règles de groupes simples, par exemple :
+
+- Autoriser / Refuser globalement les services nécessaires pour « Windows Update » (BITS, WuauServ, Orchestrator, etc.)  
 Fini les Hacks dans la base de registre pour empêcher les mises à jour intempestives !  
 Ainsi, mon Windows ne se mettrait à jour QUE lorsque je l’aurai décidé !
 
-et bien sûr :  
-Refuser complètement à un programme de se connecter à internet !  
-(c’est-à-dire : pas de requêtes DNS non plus : gain de temps, moins de threads en attente, économie de batterie sur les portables, plus de bande réseau disponible, moins de pollution électrique, etc.)
+et bien sûr :
+
+- Refuser complètement à un programme de se connecter à internet !  
+(pas de requêtes DNS : gain de temps, moins de threads en attente, économie de batterie sur les portables, plus de bande réseau disponible, moins de pollution électrique, etc.)
 
 Croyez-moi, si vous saviez le nombre de connexions inutiles par minute, par heure, par jour qui partent de votre PC, vous seriez effarés !  
 D’ailleurs grâce à **PERFECT wall** , vous allez vous en rendre compte.
@@ -100,15 +105,13 @@ Ce pilote est génial !
 J'ai juste modifié la DLL pour rendre l'installation du pilote permanente dans "C:\Windows\System32".
 J'ai également créé un processus d'installation (install.cmd & setup.exe) pour faciliter les choses.
 
-> Windows Packet Divert (WinDivert) is a user-mode packet interception library
-> for Windows 7, Windows 8 and Windows 10.
-> 
-> In summary, WinDivert can:  
-> - capture network packets  
-> - filter/drop network packets  
-> - sniff network packets  
-> - (re)inject network packets  
-> - modify network packets
+> WinDivert est une bibliothèque d'interception de paquets en mode utilisateur pour Windows 7 / 8 / 10, qui peut :
+>
+> - capturer les paquets réseau
+> - filtrer/éliminer les paquets réseau
+> - renifler les paquets réseau
+> - (ré)injecter des paquets réseau
+> - modifier les paquets réseau
 
 **WinDivertSharp** - (codé en C#)  
 **&copy; Jesse Nicholson « TechnikEmpire » - (Ontario, Canada)**  
@@ -118,9 +121,9 @@ Cette interface a été créée pour la version 1.4 de Windivert et j’ai repri
 **&copy; Philipp Sumi - (Switzerland)**  
 J'ai du adpater le code de la dernière version (1.1.0) pour qu'il fonctionne avec le Framework .NET 4.5.
 
-> Il s'agit d'une implémentation d'un NotifyIcon (alias icône de la barre des tâches) pour la plate-forme WPF.
-> Il ne repose pas seulement sur le composant "Windows Forms NotifyIcon", mais c'est un contrôle purement
-> indépendant qui exploite plusieurs fonctionnalités du framework WPF afin d'afficher des info-bulles riches,
+> Il s'agit d'une implémentation d'un NotifyIcon (alias icône de la barre des tâches) pour la plate-forme WPF.  
+> Il ne repose pas seulement sur le composant "Windows Forms NotifyIcon", mais c'est un contrôle purement  
+> indépendant qui exploite plusieurs fonctionnalités du framework WPF afin d'afficher des info-bulles riches,  
 > des fenêtres contextuelles, des menus contextuels et des messages de bulle.
 
 **INI File Parser** - (codé en C#)  
@@ -134,7 +137,7 @@ J’ai inclus juste le nécessaire dans ce projet, mais si vous souhaitez voir l
 [github.com/hardcodet/wpf-notifyicon](https://github.com/hardcodet/wpf-notifyicon)  
 [github.com/rickyah/ini-parser](https://github.com/rickyah/ini-parser)
 
-# 🦄 Fonctionnalités futures
+# 🦄 DANS UN PROCHE FUTUR
 
 - Bloquer les noms de domaines par application
 - Vérifier ou ne pas vérifier les noms de domaines par application  
