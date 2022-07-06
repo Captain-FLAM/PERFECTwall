@@ -141,10 +141,8 @@ I added the backup function which was missing on the last version.
 for his project which inspired me and from which I stole bits of code :  
 **Windows Firewall Notifier**  
 https://github.com/wokhansoft/WFN  
-_(you will be able to see its copyleft in the source code of the **Process.cs** file, for example)_
-
----
-
+_(you will be able to see its copyleft in the source code of the **Process.cs** file, for example)_  
+.  
 I included just the necessary in this project, but if you want to see the rest (examples, tests and others) :  
 [github.com/basil00/Divert](https://github.com/basil00/Divert)  
 [github.com/TechnikEmpire/WinDivertSharp](https://github.com/TechnikEmpire/WinDivertSharp)  
@@ -160,7 +158,7 @@ I included just the necessary in this project, but if you want to see the rest (
 - Simply allow/deny necessary services by groups, day by day.  
 (e.g : Local Area Network (LAN), Windows Update, Visual Studio, etc.)
 - Intelligently advise on actions to take for obscure Windows services with a comprehensive information panel.  
-(e.g : Netbios connection → « Are you using a local network? » YES/NO : Disallow all local network services at once)
+(e.g : _(HomeGroup)_ p2psvc → « Are you using a local network? » YES/NO : Disallow all local network services at once)
 - And in the future and for the most paranoid of you who don't trust Microsoft's WFP, I would like to be able to develop an NDIS 6.0 driver in the same spirit as « WinpkFilter » (which is not open-source)
 
 **Bonus** : I like to see my network activity at a glance and apart from Comodo none have a visual indicator, except of course **PERFECT wall** !

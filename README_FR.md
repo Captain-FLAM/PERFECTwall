@@ -136,10 +136,8 @@ J'ai rajouté la fonction de sauvegarde qui manquait sur la dernière version.
 pour son projet qui m'a inspiré et à qui j'ai piqué des bouts de code :  
 **Windows Firewall Notifier**  
 https://github.com/wokhansoft/WFN  
-_(vous pourrez voir son copyleft dans le code source du fichier **Process.cs** , par exemple)_
-
----
-
+_(vous pourrez voir son copyleft dans le code source du fichier **Process.cs** , par exemple)_  
+.  
 J’ai inclus juste le nécessaire dans ce projet, mais si vous souhaitez voir le reste (exemples, tests et autres) :  
 [github.com/basil00/Divert](https://github.com/basil00/Divert)  
 [github.com/TechnikEmpire/WinDivertSharp](https://github.com/TechnikEmpire/WinDivertSharp)  
@@ -155,7 +153,7 @@ J’ai inclus juste le nécessaire dans ce projet, mais si vous souhaitez voir l
 - Autoriser / Refuser simplement les services nécessaires par groupes, au jour le jour  
 (ex : Réseau Local (LAN), Windows Update, Visual Studio, etc.)
 - Conseiller intelligemment sur les actions à prendre pour les services abscons de Windows avec un panneau d’information complet  
-(ex : Connexion Netbios → « Utilisez-vous un réseau local ? » OUI/NON : Interdire tous les services de réseau local d’un seul coup)
+(ex : _(HomeGroup)_ p2psvc → « Utilisez-vous un réseau local ? » OUI/NON : Interdire tous les services de réseau local d’un seul coup)
 - Et dans le futur et pour les plus paranos d'entre-vous qui ne font pas confiance au WFP de Microsoft, j'aimerais pouvoir développer un pilote NDIS 6.0 dans le même esprit que « WinpkFilter » (qui n'est pas open-source)
 
 Bonus : J’aime bien voir l’activité de mon réseau en un coup d’œil et à part Comodo aucun ne dispose d’un indicateur visuel, excepté bien sûr **PERFECT wall** !
