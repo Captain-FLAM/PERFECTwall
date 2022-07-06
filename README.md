@@ -135,6 +135,16 @@ I had to adapt the code of the last version (1.1.0) so that it works with the .N
 This library does not rely on Win32 APIs, and therefore supports UTF-8.  
 I added the backup function which was missing on the last version.
 
+### And a special thanks to :
+
+**&copy; Jerome Saliba (Khan)**  
+for his project which inspired me and from which I stole bits of code :  
+**Windows Firewall Notifier**  
+https://github.com/wokhansoft/WFN  
+_(you will be able to see its copyleft in the source code of the **Process.cs** file, for example)_
+
+---
+
 I included just the necessary in this project, but if you want to see the rest (examples, tests and others) :  
 [github.com/basil00/Divert](https://github.com/basil00/Divert)  
 [github.com/TechnikEmpire/WinDivertSharp](https://github.com/TechnikEmpire/WinDivertSharp)  

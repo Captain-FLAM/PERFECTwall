@@ -131,6 +131,15 @@ J'ai du adpater le code de la dernière version (1.1.0) pour qu'il fonctionne av
 Cette librairie par ne s'appuie pas sur les API de Win32, et par conséquent supporte l'UTF-8.  
 J'ai rajouté la fonction de sauvegarde qui manquait sur la dernière version.
 
+### Et un remerciement tout spécial à :  
+**&copy; Jérôme Saliba (Khan)**  
+pour son projet qui m'a inspiré et à qui j'ai piqué des bouts de code :  
+**Windows Firewall Notifier**  
+https://github.com/wokhansoft/WFN  
+_(vous pourrez voir son copyleft dans le code source du fichier **Process.cs** , par exemple)_
+
+---
+
 J’ai inclus juste le nécessaire dans ce projet, mais si vous souhaitez voir le reste (exemples, tests et autres) :  
 [github.com/basil00/Divert](https://github.com/basil00/Divert)  
 [github.com/TechnikEmpire/WinDivertSharp](https://github.com/TechnikEmpire/WinDivertSharp)  

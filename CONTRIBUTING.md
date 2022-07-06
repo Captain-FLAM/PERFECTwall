@@ -16,8 +16,15 @@ One-line messages are fine for small changes, but bigger changes should look lik
 
 Start reading my code and you'll get the hang of it. I optimize for readability:
 
-  * I indent using tabs (equal to four spaces)
-  * I use MVC (Model - View - Controller) : KISS name of class model, XAML for view and XAML.cs as controller.
-  * I ALWAYS put spaces after list items and method parameters (`[1, 2, 3]`, not `[1,2,3]`) and around operators (`x += 1`, not `x+=1`).
-  * For brace placement in compound statements, I use **Allman** style, and **K&R** style for try/catch blocks. (see on [wikipedia](https://en.wikipedia.org/wiki/Indentation_style#Brace_placement_in_compound_statements))
-  * and for all the rest, I use the Visual Studio C# recommandations.
+- I indent using tabs (equal to four spaces)
+- I use MVC (Model - View - Controller) : KISS name of class model, XAML for view and XAML.cs as controller.
+- I ALWAYS put spaces after list items and method parameters (`[1, 2, 3]`, not `[1,2,3]`) and around operators (`x += 1`, not `x+=1`).
+- For brace placement in compound statements, I use **Allman** style, and **K&R** style for try/catch blocks. (see on [wikipedia](https://en.wikipedia.org/wiki/Indentation_style#Brace_placement_in_compound_statements))
+- and for all the rest, I use the Visual Studio C# recommandations.
+
+## Optimization
+
+- Absolute ban on using **Linq** !
+- Absolute prohibition to use **WMI** !
+- to be continued...
+
